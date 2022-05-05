@@ -26,8 +26,7 @@ class InitWindow(QMainWindow):
         self.init()
 
     def init(self):
-        self.setWindowTitle('Menu')
-        self.setWindowIcon(QIcon('icon.png'))
+        self.setWindowTitle('Menu')icon
         self.resize(self.WIDTH, self.HEIGHT)
         self.center()
 
