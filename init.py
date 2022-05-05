@@ -1,8 +1,8 @@
 import sys
 
-from PyQt5.QtCore import Qt, QRect
-from PyQt5.QtGui import QIcon, QColor, QPainter, QFont
-from PyQt5.QtWidgets import QMainWindow, QPushButton, QDesktopWidget, QGridLayout, QWidget, QLabel, QDialog
+from PyQt5.QtCore import Qt
+from PyQt5.QtGui import QPainter
+from PyQt5.QtWidgets import QMainWindow,QDesktopWidget, QGridLayout, QWidget, QLabel, QDialog
 
 from mainWindow import MainWindow
 from rulesWindow import RulesWindow
@@ -26,7 +26,7 @@ class InitWindow(QMainWindow):
         self.init()
 
     def init(self):
-        self.setWindowTitle('Menu')icon
+        self.setWindowTitle('Menu')
         self.resize(self.WIDTH, self.HEIGHT)
         self.center()
 

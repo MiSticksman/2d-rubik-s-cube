@@ -1,6 +1,4 @@
-import sys
 from functools import partial
-
 from PyQt5.QtWidgets import *
 from context import Const
 from staticMethods import *

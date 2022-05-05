@@ -1,6 +1,3 @@
-import sys
-
-import states
 from game import Game
 from color import Color
 from PyQt5.QtWidgets import *
