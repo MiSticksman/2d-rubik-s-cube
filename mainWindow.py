@@ -138,27 +138,22 @@ class MainWindow(QMainWindow):
 
 
         self.btn0 = create_btn("", 50, 70, self.__GAME_BUTTONS_STYLE)
-        #  self.btn0.setGeometry(299, 214, 130, 130)
         self.btn0.clicked.connect(partial(self.btn_clicked, 0))
         self.grid_btn.addWidget(self.btn0, 0, 1)
 
         self.btn1 = create_btn("", 50, 70, self.__GAME_BUTTONS_STYLE)
-        # self.btn1.setGeometry(559, 214, 130, 130)
         self.btn1.clicked.connect(partial(self.btn_clicked, 1))
         self.grid_btn.addWidget(self.btn1, 0, 3)
 
         self.btn2 = create_btn("", 50, 70, self.__GAME_BUTTONS_STYLE)
-        # self.btn2.setGeometry(299, 474, 130, 130)
         self.btn2.clicked.connect(partial(self.btn_clicked, 2))
         self.grid_btn.addWidget(self.btn2, 2, 1)
 
         self.btn3 = create_btn("", 50, 70, self.__GAME_BUTTONS_STYLE)
-        # self.btn3.setGeometry(559, 474, 130, 130)
         self.btn3.clicked.connect(partial(self.btn_clicked, 3))
         self.grid_btn.addWidget(self.btn3, 2, 3)
 
         self.btn4 = create_btn("", 50, 70, self.__GAME_BUTTONS_STYLE)
-        # self.btn4.setGeometry(430, 345, 130, 130)
         self.btn4.clicked.connect(partial(self.btn_clicked, 4))
         self.grid_btn.addWidget(self.btn4, 1, 2)
 

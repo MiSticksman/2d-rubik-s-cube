@@ -68,7 +68,6 @@ class Game:
         return rotate_arr
 
     def rotate(self, area):
-        # self.__state = States.PLAYING
         box = self.rotate_box(self.fill_box(area))
         if area == 0:
             for i in range(2):
